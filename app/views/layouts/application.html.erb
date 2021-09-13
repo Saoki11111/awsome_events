@@ -15,6 +15,11 @@
           <%= link_to 'AwsomeEvents', root_path, class: 'navbar-brand' %>
         </div>
       </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to 'イベントを作る', new_event_path %></li>
+        </ul>
+      </div>
     </header>
     <div class="container">
       <%= yield %>
